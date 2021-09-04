@@ -50,7 +50,7 @@
   }
 }
 .introduction {
-  background: url("/img/background_image_1.png") #F9F9F9;
+  background: url("img/background_image_1.png") #F9F9F9;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -66,7 +66,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background: url("/img/zigzag-fill-desktop.svg.svg");
+    background: url("img/zigzag-fill-desktop.svg.svg");
   }
 }
 .introduction__header {
@@ -173,14 +173,14 @@
   background: #63D1BB;
 }
 .introduction__item--light::after {
-  background: url("/img/icon_light.svg");
+  background: url("img/icon_light.svg");
   width: 41px;
 }
 .introduction__item--toy {
   background: #56C3B2;
 }
 .introduction__item--toy::after {
-  background: url("/img/icon_toy.svg");
+  background: url("img/icon_toy.svg");
   width: 62px;
 }
 @media (min-width: 768px) {
@@ -195,7 +195,7 @@
     width: 100%;
     position: absolute;
     bottom: -6px;
-    background: url("/img/zigzag-fill-desktop.svg.svg");
+    background: url("img/zigzag-fill-desktop.svg.svg");
   }
 }
 @media (min-width: 768px) {
@@ -359,7 +359,7 @@
   left: -42px;
   width: 21px;
   height: 16px;
-  background-image: url("/img/icon_card.svg");
+  background-image: url("img/icon_card.svg");
 }
 .user-list__item--card::before:hover {
   color: #62D1BA;
@@ -374,7 +374,7 @@
   left: -42px;
   width: 16px;
   height: 16px;
-  background-image: url("/img/icon_search.svg");
+  background-image: url("img/icon_search.svg");
 }
 @media (min-width: 768px) {
   .user-list__item {
@@ -424,7 +424,7 @@
   width: 100%;
   position: absolute;
   bottom: -42px;
-  background: url("/img/zigzag-line-desktop.svg.svg");
+  background: url("img/zigzag-line-desktop.svg.svg");
   background-repeat: no-repeat;
 }
 @media (min-width: 768px) {
@@ -432,7 +432,7 @@
     margin-top: 39px;
   }
   .featured::after {
-    background: url("/img/zigzag-line-tablet.svg");
+    background: url("img/zigzag-line-tablet.svg");
     height: 17px;
     bottom: -62px;
   }
@@ -610,7 +610,7 @@
 .about__item--flower {
   height: 38px;
   width: 33px;
-  background: url("/img/icon-about_flower.svg");
+  background: url("img/icon-about_flower.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -618,7 +618,7 @@
 .about__item--price {
   height: 27px;
   width: 47px;
-  background: url("/img/icon-about_price.svg");
+  background: url("img/icon-about_price.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -626,7 +626,7 @@
 .about__item--heart {
   height: 27px;
   width: 34px;
-  background: url("/img/icon-about_heart.svg");
+  background: url("img/icon-about_heart.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -634,7 +634,7 @@
 .about__item--clew {
   height: 34px;
   width: 35px;
-  background: url("/img/icon-about_clew.svg");
+  background: url("img/icon-about_clew.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -642,7 +642,7 @@
 .about__item--rocket {
   height: 23px;
   width: 55px;
-  background: url("/img/icon-about_rocket.svg");
+  background: url("img/icon-about_rocket.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -650,7 +650,7 @@
 .about__item--gift {
   height: 32px;
   width: 33px;
-  background: url("/img/icon-about_gift.svg");
+  background: url("img/icon-about_gift.svg");
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 30px;
@@ -688,7 +688,7 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    background: url("/img/review.png");
+    background: url("img/review.png");
     background-repeat: no-repeat;
     z-index: -1;
   }
@@ -759,12 +759,12 @@
   border: 1px solid #ECECEC;
 }
 .slider__toggles--next {
-  background: url("/img/arrow-right.svg");
+  background: url("img/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .slider__toggles--prev {
-  background: url("/img/arrow-left.svg");
+  background: url("img/arrow-left.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -815,7 +815,7 @@
     height: 81px;
     top: -20px;
     right: 0;
-    background: url("/img/icon_flag.svg");
+    background: url("img/icon_flag.svg");
     background-repeat: no-repeat;
   }
 }
@@ -866,7 +866,7 @@
   height: 100px;
   top: 145px;
   left: 300px;
-  background: url("/img/map-pin.svg.svg");
+  background: url("img/map-pin.svg.svg");
   z-index: 2;
 }
 @media (min-width: 1150px) {
@@ -923,14 +923,14 @@
 .social__intst {
   width: 22px;
   height: 21px;
-  background: url("/img/insta.svg.svg");
+  background: url("img/insta.svg.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .social__fb {
   width: 15px;
   height: 28px;
-  background: url("/img/fb.svg.svg");
+  background: url("img/fb.svg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 27px 0 27px;
@@ -938,7 +938,7 @@
 .social__twitter {
   width: 23px;
   height: 20px;
-  background: url("/img/twitter.svg.svg");
+  background: url("img/twitter.svg.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1044,7 +1044,7 @@
   position: absolute;
   width: 20px;
   height: 19px;
-  background: url("/img/icon_card.svg");
+  background: url("img/icon_card.svg");
   top: 27px;
   right: 0;
 }
@@ -1093,7 +1093,7 @@
   position: absolute;
   width: 32px;
   height: 22px;
-  background: url("/img/video.svg.svg");
+  background: url("img/video.svg.svg");
   top: 0;
   left: -17px;
 }
@@ -1136,7 +1136,7 @@
   position: absolute;
   width: 105px;
   height: 78px;
-  background: url("/img/play.svg.svg");
+  background: url("img/play.svg.svg");
   background-repeat: no-repeat;
   top: 186px;
   left: 288px;
@@ -1310,7 +1310,7 @@
   position: absolute;
   width: 23px;
   height: 16px;
-  background: url("/img/Tick.svg");
+  background: url("img/Tick.svg");
   background-size: cover;
   top: 12px;
   left: 10px;
@@ -1367,7 +1367,7 @@
   right: 25px;
   width: 25px;
   height: 24px;
-  background: url("/img/phone.svg.svg");
+  background: url("img/phone.svg.svg");
   background-repeat: no-repeat;
 }
 .form__email {
@@ -1383,7 +1383,7 @@
   right: 25px;
   width: 34px;
   height: 24px;
-  background: url("/img/mail.svg.svg");
+  background: url("img/mail.svg.svg");
   background-repeat: no-repeat;
 }
 .form__extra {
