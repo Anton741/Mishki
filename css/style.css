@@ -114,6 +114,7 @@ a:hover {
 .promo__list .promo_item {
   padding: 19px 65px 19px 0px;
   cursor: pointer;
+  color: black;
 }
 .promo__list .promo_item:hover {
   opacity: 0.6;
