@@ -1,3 +1,7 @@
+a,
+a:hover {
+  text-decoration: none;
+}
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
