@@ -1,0 +1,26 @@
+.button{
+  mix-blend-mode: normal;
+  text-decoration: none;
+  box-sizing: border-box;
+  display:block;
+  color:#444444;
+  font-family: "Open Sans" ,sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight:700;
+  padding: 16px 70px;
+  text-align: center;
+  border:2px solid @btn__color;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover,
+  &:focus{
+    background:#444444;
+    color:@fonts__color--white;
+  }
+  &:active{
+    color: fade(@fonts__color--white; 30%);
+    background: linear-gradient(0deg, #444444, #444444);
+  }
+}

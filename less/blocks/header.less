@@ -1,0 +1,213 @@
+   .page__header{
+    @media (min-width:@tablet__width){
+        border-bottom: 1px solid fade(@border__color,10%);
+    }
+   }
+   
+   .header__body{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80px;
+    align-items:center;
+    position: relative;
+    // justify-content: stretch;
+    
+}
+.header__logo{
+    margin:  22px auto;
+    &:hover{
+            opacity: 0.6;
+    }
+    &:active{
+      opacity: 0.3;
+    }
+    @media (min-width:@desktop__width){
+        display: none;
+    }
+}
+.header__burger{
+    margin-right: 30px;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    &:before,
+    &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background:black;
+    }
+    &:before{
+        top:0;
+    }
+    &:after{
+        bottom:0;
+    }    
+    .nav__toggle{
+        width: 100%;
+        height: 2px;
+        background:black;
+        border:none;
+        position: absolute;
+        right:0;
+        top:9px;
+    };
+      &.active{
+        &:before{
+            transform: rotate(45deg);
+            top:9px;
+        }
+        &:after{
+            transform: rotate(-45deg);
+            bottom:9px;
+            
+        }
+        .nav__toggle{
+            display: none;
+        }
+    };
+    @media (min-width:@tablet__width){
+        display: none;
+    }
+}
+
+
+.header__nav{
+    position: absolute;
+    top: -600%;
+    min-width: 100%;
+    background:white;
+    padding: 0;
+    &--active{
+        min-height: 100vh;
+        position: static;
+        
+    }
+    @media (min-width:@tablet__width){
+        min-width: auto;
+        min-height: auto;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex: auto;
+        align-items:center;
+    }
+}
+
+.header__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    @media (min-width:@tablet__width){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:center;
+    }
+}
+.site-list__item{
+    padding:29px 31px 27px 76px ;
+    border-top:1px solid fade(@border__color,10%);
+    cursor: pointer;
+    &:hover{
+            opacity: 0.6;
+    }
+    &:active{
+        opacity: 0.3;
+    }
+    @media (min-width:@tablet__width){
+        border:none;
+        display: none;
+    }
+    @media (min-width:@desktop__width){
+        padding-left: 41px;
+        display: block;
+        border-left: 1px solid fade(@border__color,10%);
+        &:first-of-type{
+            border-left: none;
+            padding-left: 0;
+        }
+    }
+}
+.user-list__item {
+    padding:29px 0px 27px 76px;
+    border-top:1px solid fade(@border__color,10%);
+    &:hover{
+            opacity: 0.6;
+    }
+    &:active{
+      opacity: 0.3;
+    }
+    .links{
+        display:flex;
+        align-items:center;
+    }
+    &--card{
+        position: relative;
+    }
+
+    &--card::before{
+        color: @icon__color--gray;
+        content: "";
+        position: absolute;
+        left: -42px;
+        width: 21px;
+        height: 16px;
+        background-image: url("/img/icon_card.svg");
+        &:hover{
+            color:@hover__link__contact;
+        }
+    }
+
+    &--search{
+        position: relative;
+    }
+    &--search::before{
+        color: @icon__color--gray;
+        content: "";
+        position: absolute;
+        left: -42px;
+        width: 16px;
+        height: 16px;
+        background-image: url("/img/icon_search.svg");
+    }
+    @media (min-width:@tablet__width){
+        padding:29px 0 27px 74px;
+        border-top:none;
+        border-left: 1px solid fade(@border__color,10%);
+        span{
+            display: none;
+        }
+        &--search{
+            padding:0 0 22px 0px;
+        }
+        &--search::before{
+            top:3px;
+            left:-43px
+        }  
+    }
+}
+.links{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__logo--desktop{
+    display: none;
+     @media (min-width:@desktop__width){
+        display: block;
+        &:hover{
+            opacity: 0.6;
+        }
+        &:active{
+        opacity: 0.3;
+        }
+    }
+}
